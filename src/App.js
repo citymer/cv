@@ -8,9 +8,9 @@ import Autres from './pages/Autres'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/acceuil" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/competences-techniques" element={<Competences />}></Route>
         <Route path="/projets-realises" element={<Projets />}></Route>
         <Route path="/formations" element={<Formations />}></Route>

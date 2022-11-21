@@ -1,0 +1,27 @@
+@import '../styles/components/header';
+@import '../styles/components/menuDeGauche';
+@import '../styles/components/nav';
+@import '../styles/components/quisuisje';
+@import '../styles/components/competencesTechniques';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+.global {
+  display: flex;
+  height: 1000px;
+}
+
+.menudroit {
+  width: 100%;
+}
+main {
+  width: 100%;
+  text-align: center;
+}

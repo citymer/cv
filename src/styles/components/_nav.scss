@@ -1,0 +1,22 @@
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  border-radius: 15px 15px 15px 15px;
+  padding: 5px;
+  background-color: #ff914d;
+  border-radius: 15px 15px 15px 15px;
+  margin-left: 5px;
+  color: white;
+}
+nav ul li {
+  display: inline;
+  text-decoration: none;
+}
+.active {
+  border: 2px solid black;
+  background-color: #00c2cb;
+}

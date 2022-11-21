@@ -7,7 +7,7 @@ const Nav = () => {
     <nav>
       <ul>
         <NavLink
-          to="/"
+          to={process.env.PUBLIC_URL + '/'}
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
           <li>Acceuil</li>

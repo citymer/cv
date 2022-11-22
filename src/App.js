@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import Home from './pages/Home'
 import './styles/index.scss'
 import Competences from './pages/Competences'
@@ -8,15 +8,15 @@ import Autres from './pages/Autres'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/acceuil" element={<Home />}></Route>
+        <Route index path="/" element={<Home />}></Route>
         <Route path="/competences-techniques" element={<Competences />}></Route>
         <Route path="/projets-realises" element={<Projets />}></Route>
         <Route path="/formations" element={<Formations />}></Route>
         <Route path="/autres" element={<Autres />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

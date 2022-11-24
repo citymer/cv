@@ -1,13 +1,17 @@
+@import '../../styles/utils/variables';
+
 header {
   text-align: center;
 }
 .contentTexte {
   height: 200px;
-  background-color: #ff914d;
+  background-color: $secondaire;
 }
 h1,
 h2 {
-  color: white;
+  color: $blanc;
+  text-shadow: 0 0 2px $noir, 0 0 2px $noir, 0 0 2px $noir, 0 0 2px $noir,
+    0 0 2px $noir;
 }
 h1 {
   font-size: 65px;

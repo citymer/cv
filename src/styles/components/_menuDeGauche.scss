@@ -1,5 +1,7 @@
+@import '../../styles/utils/variables';
+
 .menuGauche {
-  background-color: #00c2cb;
+  background-color: $primaire;
   text-align: center;
 }
 .left {
@@ -14,7 +16,7 @@
   border-radius: 50%;
 
   margin-top: 50px;
-  border: 4px solid #536779;
+  border: 4px solid $contour;
 }
 
 .coordonnees {

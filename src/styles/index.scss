@@ -3,6 +3,7 @@
 @import '../styles/components/nav';
 @import '../styles/components/quisuisje';
 @import '../styles/components/competencesTechniques';
+@import '../styles/components/projetsRealises';
 
 * {
   box-sizing: border-box;
@@ -12,6 +13,7 @@ body {
   width: 90%;
   margin: 0 auto;
   font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .global {
   display: flex;
@@ -27,4 +29,7 @@ main {
 }
 .li {
   font-size: 20px;
+}
+img {
+  width: 200px;
 }

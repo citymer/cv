@@ -36,6 +36,12 @@ const Nav = () => {
         >
           <li>Autres Éxpériences Proféssionnelles</li>
         </NavLink>
+        <NavLink
+          to="/centre-interet"
+          className={({ isActive }) => (isActive ? 'active' : 'inactive')}
+        >
+          <li>Centre d'intérêt</li>
+        </NavLink>
       </ul>
     </nav>
   )

@@ -10,24 +10,24 @@ const CompetencesTechniques = () => {
         <div className="frontend">
           <h4>FRONT-END</h4>
           <ul>
-            <li>Javascript</li>
-            <li>HTML & CSS</li>
-            <li>Sass</li>
-            <li>Bootstrap</li>
-            <li>React</li>
-            <li>React Router</li>
+            <li className="li">Javascript</li>
+            <li className="li">HTML & CSS</li>
+            <li className="li">Sass</li>
+            <li className="li">Bootstrap</li>
+            <li className="li">React</li>
+            <li className="li">React Router</li>
           </ul>
         </div>
         <div className="autres">
           <h4>AUTRES TECHNOLOGIES</h4>
           <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Interaction avec une API</li>
-            <li>Figma</li>
-            <li>MongoDB</li>
-            <li>NPM</li>
-            <li>Node.js</li>
+            <li className="li">Git</li>
+            <li className="li">GitHub</li>
+            <li className="li">Interaction avec une API</li>
+            <li className="li">Figma</li>
+            <li className="li">MongoDB</li>
+            <li className="li">NPM</li>
+            <li className="li">Node.js</li>
           </ul>
         </div>
       </div>

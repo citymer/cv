@@ -5,6 +5,7 @@ import Competences from './pages/Competences'
 import Projets from './pages/Projets'
 import Formations from './pages/Formations'
 import Autres from './pages/Autres'
+import Centres from './pages/Centres'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/projets-realises" element={<Projets />}></Route>
         <Route path="/formations" element={<Formations />}></Route>
         <Route path="/autres" element={<Autres />}></Route>
+        <Route path="/centre-interet" element={<Centres />}></Route>
       </Routes>
     </HashRouter>
   )

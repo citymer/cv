@@ -56,6 +56,7 @@ const AutresExperiences = () => {
         <div className="contentlogo ">
           <img src={deejay} alt="logo deejay" className="logo" />
         </div>
+
         <li className="li">
           01/1995 - 01/2008 - SAS Conserves de provence -{' '}
           <strong>Chef de ligne</strong>{' '}

@@ -1,7 +1,11 @@
 .contentImg {
+  width: 90%;
   margin-top: 10px;
   margin-bottom: 25px;
+  margin-left: auto;
+  margin-left: auto;
   display: flex;
+
   align-items: center;
 }
 .github {
@@ -15,7 +19,8 @@
 .contentLogo {
   width: 120px;
   height: 60%;
-  margin-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

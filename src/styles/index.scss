@@ -4,7 +4,7 @@
 @import '../styles/components/quisuisje';
 @import '../styles/components/competencesTechniques';
 @import '../styles/components/projetsRealises';
-
+@import '../styles/components/autresExperience';
 * {
   box-sizing: border-box;
 }
@@ -26,6 +26,7 @@ body {
 main {
   width: 100%;
   text-align: center;
+  padding-bottom: 30px;
 }
 .li {
   font-size: 20px;

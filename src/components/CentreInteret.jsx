@@ -10,7 +10,7 @@ const CentreInteret = () => {
         <li className="li">
           Passionné par le deux roues vélo/vtt en club depuis toujours
         </li>
-        <li className="li">Amateur de bricolage et jardinage</li>
+        <li className="li">Amateur de bricolage et de jardinage</li>
         <div className="alignLogo">
           <div className="contentlogo ">
             <img src={bricolage} alt="logo deejay" className="withlogo" />

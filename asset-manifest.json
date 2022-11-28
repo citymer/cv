@@ -1,14 +1,38 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.5f0d63af.css",
-    "main.js": "/cv/static/js/main.a3e85acd.js",
+    "main.css": "/cv/static/css/main.c1a3340e.css",
+    "main.js": "/cv/static/js/main.dd0066fb.js",
+    "static/media/wine.png": "/cv/static/media/wine.5b00b3c249c2e699ea8e.png",
+    "static/media/habilitation.png": "/cv/static/media/habilitation.0a0aa2f46a99dc81ff6b.png",
+    "static/media/gameOn.PNG": "/cv/static/media/gameOn.bd2c7f1a4a4c69502470.PNG",
+    "static/media/kasa.PNG": "/cv/static/media/kasa.bf23f8d9aaa24e6bd257.PNG",
     "static/media/visage.jpg": "/cv/static/media/visage.81420c175f4efe0e40a0.jpg",
+    "static/media/rayons.png": "/cv/static/media/rayons.e686a6c584adc6a3c617.png",
+    "static/media/argentbank.PNG": "/cv/static/media/argentbank.1164fe02f201b1b8c968.PNG",
+    "static/media/fisheyes.PNG": "/cv/static/media/fisheyes.68694a026bfb5e57a6c2.PNG",
+    "static/media/jardinage.png": "/cv/static/media/jardinage.94ba29b4d2f7181afa00.png",
+    "static/media/ohmyfood.PNG": "/cv/static/media/ohmyfood.1bf6da93c32823dc7aaf.PNG",
+    "static/media/reservia.PNG": "/cv/static/media/reservia.a9f7c5af0c96211f8844.PNG",
+    "static/media/bricolage.png": "/cv/static/media/bricolage.6e6d596cd0a6508e5167.png",
+    "static/media/devlogo.png": "/cv/static/media/devlogo.c66eea6b1525f5569e56.png",
+    "static/media/responsable.png": "/cv/static/media/responsable.d36194b374331836aa26.png",
+    "static/media/deejay.png": "/cv/static/media/deejay.fffd5dca9aeb0e0591a6.png",
+    "static/media/chefdeligne.png": "/cv/static/media/chefdeligne.5e018b81dd3c11fd71c5.png",
+    "static/media/livreurs.png": "/cv/static/media/livreurs.af2b45dbc7ca7d177798.png",
+    "static/media/sporsee.PNG": "/cv/static/media/sporsee.eb59e3e2f3dc30bbb7cb.PNG",
+    "static/media/preparateur.png": "/cv/static/media/preparateur.2b667a6f01191281b048.png",
+    "static/media/GitHub-LogoPNG1.png": "/cv/static/media/GitHub-LogoPNG1.287a43212fbe4197d53b.png",
+    "static/media/les petits plats.PNG": "/cv/static/media/les petits plats.b906abcd68240ac7caee.PNG",
+    "static/media/logo-websites-31315.png": "/cv/static/media/logo-websites-31315.3c34ab1ac4d73a57763d.png",
+    "static/media/billed.PNG": "/cv/static/media/billed.07f887ed627a97fd30f4.PNG",
+    "static/media/hrnet.PNG": "/cv/static/media/hrnet.98018644ea14800781de.PNG",
+    "static/media/maquetteFigma.PNG": "/cv/static/media/maquetteFigma.79ceb07791deda1e6a99.PNG",
     "index.html": "/cv/index.html",
-    "main.5f0d63af.css.map": "/cv/static/css/main.5f0d63af.css.map",
-    "main.a3e85acd.js.map": "/cv/static/js/main.a3e85acd.js.map"
+    "main.c1a3340e.css.map": "/cv/static/css/main.c1a3340e.css.map",
+    "main.dd0066fb.js.map": "/cv/static/js/main.dd0066fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f0d63af.css",
-    "static/js/main.a3e85acd.js"
+    "static/css/main.c1a3340e.css",
+    "static/js/main.dd0066fb.js"
   ]
 }

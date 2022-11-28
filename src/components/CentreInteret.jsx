@@ -1,6 +1,7 @@
 import React from 'react'
 import bricolage from '../assets/bricolage.png'
 import jardinage from '../assets/jardinage.png'
+import Carrousel from './Carrousel'
 
 const CentreInteret = () => {
   return (
@@ -10,6 +11,9 @@ const CentreInteret = () => {
         <li className="li">
           Passionné par le deux roues vélo/vtt en club depuis toujours
         </li>
+        <div>
+          <Carrousel />
+        </div>
         <li className="li">Amateur de bricolage et de jardinage</li>
         <div className="alignLogo">
           <div className="contentlogo ">

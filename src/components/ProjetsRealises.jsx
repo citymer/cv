@@ -9,6 +9,7 @@ import maquette from '../assets/maquetteFigma.PNG'
 import kasa from '../assets/kasa.PNG'
 import sporsee from '../assets/sporsee.PNG'
 import argentbank from '../assets/argentbank.PNG'
+
 import hrnet from '../assets/hrnet.PNG'
 import gameon from '../assets/gameOn.PNG'
 import billed from '../assets/billed.PNG'

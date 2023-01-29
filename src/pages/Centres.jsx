@@ -7,14 +7,12 @@ import CentreInteret from '../components/CentreInteret'
 const Centres = () => {
   return (
     <div className="global">
+      <Header />
+      <main>
+        <Nav />
+        <CentreInteret />
+      </main>
       <MenuDeGauche />
-      <div className="menudroit">
-        <Header />
-        <main>
-          <Nav />
-          <CentreInteret />
-        </main>
-      </div>
     </div>
   )
 }

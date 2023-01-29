@@ -1,26 +1,19 @@
 @import '../../styles/utils/variables';
 
 .menuGauche {
-  background-color: $primaire;
-  text-align: center;
+  display: flex;
+  width: 100%;
+  background-color: $noir;
+  color: $blanc;
 }
 .left {
   margin: 0 auto;
 }
 
-/*image*/
-.portrait {
-  height: 190px;
-  width: 190px;
-  object-fit: cover;
-  border-radius: 50%;
-
-  margin-top: 50px;
-  border: 4px solid $contour;
-}
-
 .coordonnees {
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 100;
 }
 
 .iconPosition {
@@ -31,9 +24,25 @@
 .textAdress {
   margin: 0;
   margin-left: 15px;
+  color: $blanc;
 }
 .marginUp {
   margin-top: 5px;
+}
+.mail {
+  width: 150px;
+  color: $blanc;
+  border-radius: 0;
+  padding: 0;
+  text-shadow: none;
+}
+.lien {
+  color: $blanc;
+  border-radius: 0;
+  padding: 0;
+  text-shadow: none;
+  margin-left: 15px;
+  width: 250px;
 }
 p {
   font-size: 15px;
@@ -42,6 +51,11 @@ svg {
   width: 20px;
   height: 20px;
   margin-left: 10px;
+}
+.mobilite {
+  color: $blanc;
+  margin-top: 20px;
+  font-weight: 100;
 }
 .flex {
   display: flex;

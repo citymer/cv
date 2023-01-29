@@ -1,26 +1,23 @@
 @import '../../styles/utils/variables';
+@import '../utils/mixins';
 
 nav ul {
   list-style-type: none;
   margin: 0 auto;
   margin-top: 20px;
+  height: 50px;
 }
 a {
   text-decoration: none;
-  border-radius: 15px 15px 15px 15px;
-  padding: 5px;
-  background-color: $secondaire;
-  border-radius: 15px 15px 15px 15px;
   margin-left: 5px;
-  color: $blanc;
-  text-shadow: 0 0 2px $noir, 0 0 2px $noir, 0 0 2px $noir, 0 0 2px $noir,
-    0 0 2px $noir;
+  color: $noir;
 }
 nav ul li {
   display: inline;
   text-decoration: none;
 }
 .active {
-  border: 2px solid $noir;
-  background-color: $primaire;
+  border-bottom: 3px solid #d63939;
+  background-color: $blanc;
+  border-radius: 5px 5px 0px 0px;
 }

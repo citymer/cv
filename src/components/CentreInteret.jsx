@@ -1,30 +1,35 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import bricolage from '../assets/bricolage.png'
 import jardinage from '../assets/jardinage.png'
-import Carrousel from './Carrousel'
+import BanniereLoisirs from './BanniereLoisirs'
+//import Carrousel from './Carrousel'
+import vtt from '../assets/vtt.png'
 
 const CentreInteret = () => {
   return (
-    <div className="contentText">
-      <h3>Centre d'intérêt</h3>
-      <ul>
-        <li className="li">
-          Passionné par le deux roues vélo/vtt en club depuis toujours
-        </li>
-        <div>
-          <Carrousel />
-        </div>
-        <li className="li">Amateur de bricolage et de jardinage</li>
-        <div className="alignLogo">
-          <div className="contentlogo ">
-            <img src={bricolage} alt="logo deejay" className="withlogo" />
+    <Fragment>
+      <BanniereLoisirs />
+      <div className="contentText">
+        <h3>Centre d'intérêt</h3>
+        <ul className="projet">
+          <li className="li">
+            Passionné par le deux roues vélo/vtt en club depuis toujours
+          </li>
+          <div>
+            <img src={vtt} alt="h" className="imgSlide" />
           </div>
-          <div className="contentlogo ">
-            <img src={jardinage} alt="logo deejay" className="withlogo" />
+          <li className="li">Amateur de bricolage et de jardinage</li>
+          <div className="alignLogo">
+            <div className="contentlogo ">
+              <img src={bricolage} alt="logo deejay" className="withlogo" />
+            </div>
+            <div className="contentlogo">
+              <img src={jardinage} alt="logo deejay" className="withlogo" />
+            </div>
           </div>
-        </div>
-      </ul>
-    </div>
+        </ul>
+      </div>
+    </Fragment>
   )
 }
 

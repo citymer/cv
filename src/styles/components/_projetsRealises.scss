@@ -1,3 +1,8 @@
+.projet {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .contentImg {
   width: 90%;
   margin-top: 10px;
@@ -6,7 +11,9 @@
   margin-left: auto;
   display: flex;
 
-  align-items: center;
+  @include mobileMedium {
+    display: block;
+  }
 }
 .github {
   height: 30px;
@@ -15,6 +22,9 @@
 .website {
   width: 50px;
   height: 50px;
+}
+.projetImg {
+  width: 240px;
 }
 .contentLogo {
   width: 120px;

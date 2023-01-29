@@ -1,11 +1,10 @@
 import React, { Fragment } from 'react'
+import Banniere from './Banniere'
 
 const CompetencesTechniques = () => {
   return (
     <Fragment>
-      <div className="contentText">
-        <h3>COMPETENCES TECHNIQUES</h3>
-      </div>
+      <Banniere />
       <div className="front-autres">
         <div className="frontend">
           <h4>FRONT-END</h4>

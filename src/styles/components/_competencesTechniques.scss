@@ -1,22 +1,33 @@
 .front-autres {
   display: flex;
   justify-content: space-around;
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 86px;
+  @include tablet {
+    display: block;
+    width: 100%;
+  }
 }
 h4,
 h3 {
   text-decoration: underline;
+  @include tablet {
+    text-align: center;
+  }
 }
 h4 {
   font-size: 20px;
 }
 .frontend,
 .autres {
-  width: 265px;
+  width: 320px;
   background-color: $primaire;
-  border-radius: 0 60px 0 60px;
+  border-radius: 20px;
+  @include tablet {
+    margin: 0 auto;
+  }
 }
 li {
   text-align: start;

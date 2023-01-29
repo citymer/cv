@@ -61,6 +61,7 @@ const AutresExperiences = () => {
           01/1995 - 01/2008 - SAS Conserves de provence -{' '}
           <strong>Chef de ligne</strong>{' '}
         </li>
+
         <div className="contentlogo ">
           <img src={chefdeligne} alt="logo deejay" className="logo maxwith" />
         </div>

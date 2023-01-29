@@ -1,7 +1,7 @@
 import React from 'react'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css'
-import hrnet from '../assets/hrnet.PNG'
+import vtt from '../assets/vtt.png'
 import gameon from '../assets/gameOn.PNG'
 import billed from '../assets/billed.PNG'
 
@@ -18,7 +18,7 @@ const Carrousel = () => {
       >
         <SplideSlide>
           <div className="card">
-            <img src={hrnet} alt="h" className="imgSlide" />
+            <img src={vtt} alt="h" className="imgSlide" />
           </div>
         </SplideSlide>
         <SplideSlide>

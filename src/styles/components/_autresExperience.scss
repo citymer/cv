@@ -12,8 +12,14 @@
 }
 .maxwith {
   width: 450px;
+  @include mobileMedium {
+    width: 300px;
+  }
 }
 .alignLogo {
   display: flex;
   justify-content: space-around;
+  @include mobileMedium {
+    display: block;
+  }
 }

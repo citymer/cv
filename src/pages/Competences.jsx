@@ -7,14 +7,12 @@ import Nav from '../components/Nav'
 const Competences = () => {
   return (
     <div className="global">
+      <Header />
+      <main>
+        <Nav />
+        <CompetencesTechniques />
+      </main>
       <MenuDeGauche />
-      <div className="menudroit">
-        <Header />
-        <main>
-          <Nav />
-          <CompetencesTechniques />
-        </main>
-      </div>
     </div>
   )
 }

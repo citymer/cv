@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.c1a3340e.css",
-    "main.js": "/cv/static/js/main.dd0066fb.js",
+    "main.css": "/cv/static/css/main.16a4e4bb.css",
+    "main.js": "/cv/static/js/main.0f589ff6.js",
     "static/media/wine.png": "/cv/static/media/wine.5b00b3c249c2e699ea8e.png",
     "static/media/habilitation.png": "/cv/static/media/habilitation.0a0aa2f46a99dc81ff6b.png",
     "static/media/gameOn.PNG": "/cv/static/media/gameOn.bd2c7f1a4a4c69502470.PNG",
     "static/media/kasa.PNG": "/cv/static/media/kasa.bf23f8d9aaa24e6bd257.PNG",
-    "static/media/visage.jpg": "/cv/static/media/visage.81420c175f4efe0e40a0.jpg",
     "static/media/rayons.png": "/cv/static/media/rayons.e686a6c584adc6a3c617.png",
     "static/media/argentbank.PNG": "/cv/static/media/argentbank.1164fe02f201b1b8c968.PNG",
     "static/media/fisheyes.PNG": "/cv/static/media/fisheyes.68694a026bfb5e57a6c2.PNG",
@@ -15,8 +14,13 @@
     "static/media/reservia.PNG": "/cv/static/media/reservia.a9f7c5af0c96211f8844.PNG",
     "static/media/bricolage.png": "/cv/static/media/bricolage.6e6d596cd0a6508e5167.png",
     "static/media/devlogo.png": "/cv/static/media/devlogo.c66eea6b1525f5569e56.png",
+    "static/media/vtt.png": "/cv/static/media/vtt.c1a7d622d03465c63aec.png",
     "static/media/responsable.png": "/cv/static/media/responsable.d36194b374331836aa26.png",
     "static/media/deejay.png": "/cv/static/media/deejay.fffd5dca9aeb0e0591a6.png",
+    "static/media/experience.jpg": "/cv/static/media/experience.d6244da0b8aa37518413.jpg",
+    "static/media/pexels.jpg": "/cv/static/media/pexels.db51ae014c0345fa867c.jpg",
+    "static/media/loisirsmall.jpg": "/cv/static/media/loisirsmall.a8108cd3131f6b769544.jpg",
+    "static/media/crayon.jpg": "/cv/static/media/crayon.ef84c216851665ef2a5d.jpg",
     "static/media/chefdeligne.png": "/cv/static/media/chefdeligne.5e018b81dd3c11fd71c5.png",
     "static/media/livreurs.png": "/cv/static/media/livreurs.af2b45dbc7ca7d177798.png",
     "static/media/sporsee.PNG": "/cv/static/media/sporsee.eb59e3e2f3dc30bbb7cb.PNG",
@@ -28,11 +32,11 @@
     "static/media/hrnet.PNG": "/cv/static/media/hrnet.98018644ea14800781de.PNG",
     "static/media/maquetteFigma.PNG": "/cv/static/media/maquetteFigma.79ceb07791deda1e6a99.PNG",
     "index.html": "/cv/index.html",
-    "main.c1a3340e.css.map": "/cv/static/css/main.c1a3340e.css.map",
-    "main.dd0066fb.js.map": "/cv/static/js/main.dd0066fb.js.map"
+    "main.16a4e4bb.css.map": "/cv/static/css/main.16a4e4bb.css.map",
+    "main.0f589ff6.js.map": "/cv/static/js/main.0f589ff6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1a3340e.css",
-    "static/js/main.dd0066fb.js"
+    "static/css/main.16a4e4bb.css",
+    "static/js/main.0f589ff6.js"
   ]
 }

@@ -1,11 +1,17 @@
 @import '../../styles/utils/variables';
 @import '../utils/mixins';
 
+nav {
+  @include mobileSmall {
+    height: 100px;
+  }
+}
 nav ul {
   list-style-type: none;
   margin: 0 auto;
   margin-top: 20px;
   height: 50px;
+  margin-bottom: 5px;
 }
 a {
   text-decoration: none;
@@ -15,6 +21,11 @@ a {
 nav ul li {
   display: inline;
   text-decoration: none;
+}
+button {
+  border-style: none;
+  background-color: transparent;
+  font-size: 16px;
 }
 .active {
   border-bottom: 3px solid #d63939;

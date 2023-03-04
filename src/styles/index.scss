@@ -10,15 +10,17 @@
   box-sizing: border-box;
 }
 html,
-#root {
-  height: 100%;
-}
 body {
   margin: 0;
   padding: 0;
-
+  height: 100%;
   font-family: 'Lato', sans-serif;
   font-family: 'Roboto', sans-serif;
+}
+#root {
+  min-height: 1080px;
+  position: relative;
+  padding-bottom: 250px;
 }
 .global {
   margin: 0 auto;
@@ -29,14 +31,16 @@ body {
 main {
   width: 100%;
   text-align: center;
-  padding-bottom: 30px;
 }
 .banniere {
   height: 250px;
   width: 100%;
   border-radius: 20px;
   object-fit: cover;
-  margin-top: 30px;
+  margin-top: 35px;
+  @include mobileSmall {
+    margin-top: 0;
+  }
 }
 ul {
   padding-left: 0;

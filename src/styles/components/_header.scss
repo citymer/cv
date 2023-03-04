@@ -17,15 +17,15 @@ header {
 
 h2 {
   color: $noir;
-  font-family: 'Sofia Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 70px;
   margin-top: 0;
   @include tablet {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 10px;
   }
   @include mobileSmall {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 h1 {

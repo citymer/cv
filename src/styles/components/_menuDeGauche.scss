@@ -1,8 +1,11 @@
 @import '../../styles/utils/variables';
 
 .menuGauche {
+  position: absolute;
+  bottom: 0;
   display: flex;
-  width: 100%;
+  width: 90%;
+  height: 250px;
   background-color: $noir;
   color: $blanc;
 }

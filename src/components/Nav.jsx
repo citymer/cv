@@ -10,37 +10,49 @@ const Nav = () => {
           to="/"
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
-          <li>Acceuil</li>
+          <li>
+            <button>Acceuil</button>
+          </li>
         </NavLink>
         <NavLink
           to="/competences-techniques"
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
-          <li>Compétences Techniques</li>
+          <li>
+            <button>Compétences Techniques</button>
+          </li>
         </NavLink>
         <NavLink
           to="/projets-realises"
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
-          <li>Projets Réalisés</li>
+          <li>
+            <button>Projets Réalisés</button>
+          </li>
         </NavLink>
         <NavLink
           to="/formations"
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
-          <li>Formations</li>
+          <li>
+            <button>Formations</button>
+          </li>
         </NavLink>
         <NavLink
           to="/autres"
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
-          <li>Autres Éxpériences Proféssionnelles</li>
+          <li>
+            <button>Autres Éxpériences Proféssionnelles</button>
+          </li>
         </NavLink>
         <NavLink
           to="/centre-interet"
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
-          <li>Centre d'intérêt</li>
+          <li>
+            <button>Centre d'intérêt</button>
+          </li>
         </NavLink>
       </ul>
     </nav>

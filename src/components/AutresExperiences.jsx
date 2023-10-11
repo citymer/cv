@@ -10,7 +10,7 @@ import chefdeligne from '../assets/chefdeligne.png'
 const AutresExperiences = () => {
   return (
     <div className="contentText">
-      <h3>Autres éxpériences proféssionnelles</h3>
+      <h3>Autres expériences proféssionnelles</h3>
       <ul>
         <li className="li">
           03/2017 - 04/2021 - Brotte SA - Chateauneuf du pape -{' '}

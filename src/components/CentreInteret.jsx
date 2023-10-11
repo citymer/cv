@@ -21,10 +21,10 @@ const CentreInteret = () => {
               <img src={ordi} alt="ordinateur" className="withlogo" />
             </div>
             <div>
-              <img src={photoshop} alt="photoshop" className="withlogo" />
+              <img src={photoshop} alt="photoshop" className="withlogos" />
             </div>
             <div>
-              <img src={office} alt="office" className="withlogo" />
+              <img src={office} alt="office" className="withlogos" />
             </div>
           </div>
           <li className="li">

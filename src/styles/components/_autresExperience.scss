@@ -10,6 +10,13 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.withlogos {
+  width: 119px;
+  height: 120px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .maxwith {
   width: 450px;
   @include mobileMedium {

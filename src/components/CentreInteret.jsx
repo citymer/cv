@@ -4,6 +4,9 @@ import jardinage from '../assets/jardinage.png'
 import BanniereLoisirs from './BanniereLoisirs'
 //import Carrousel from './Carrousel'
 import vtt from '../assets/vtt.png'
+import ordi from '../assets/ordinateur.png'
+import photoshop from '../assets/photoshop.png'
+import office from '../assets/office.png'
 
 const CentreInteret = () => {
   return (
@@ -12,6 +15,18 @@ const CentreInteret = () => {
       <div className="contentText">
         <h3>Centre d'intérêt</h3>
         <ul className="projet">
+          <li className="li">Passionné d'informatique</li>
+          <div className="alignLogo">
+            <div>
+              <img src={ordi} alt="ordinateur" className="withlogo" />
+            </div>
+            <div>
+              <img src={photoshop} alt="photoshop" className="withlogo" />
+            </div>
+            <div>
+              <img src={office} alt="office" className="withlogo" />
+            </div>
+          </div>
           <li className="li">
             Passionné par le deux roues vélo/vtt en club depuis toujours
           </li>

@@ -13,6 +13,13 @@ const AutresExperiences = () => {
       <h3>Autres expériences proféssionnelles</h3>
       <ul>
         <li className="li">
+          04/2023 - 09/2023 - Sodial - Orange -{' '}
+          <strong>Préparateur de commande</strong>
+        </li>
+        <div className="contentlogo ">
+          <img src={preparateur} alt="logo developpeur" className="logo" />
+        </div>
+        <li className="li">
           03/2017 - 04/2021 - Brotte SA - Chateauneuf du pape -{' '}
           <strong>Caviste</strong>
         </li>
